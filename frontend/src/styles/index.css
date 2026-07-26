@@ -1,0 +1,72 @@
+:root {
+    --primary: #558bff;
+    --primary-hover: #1d4ed8;
+
+    --background: #f8fafcf9;
+    --surface: #dfefff;
+
+    --text-primary: #111827;
+    --text-secondary: #6b7280;
+
+    --border: #aac7ff;
+
+    --success: #51cf7f;
+    --danger: #e07272;
+
+    --font-family:
+        "Inter",
+        "Segoe UI",
+        Arial,
+        sans-serif;
+
+    --font-size-sm: 14px;
+    --font-size-md: 16px;
+    --font-size-lg: 24px;
+    --font-size-xl: 40px;
+
+    --spacing-xs: 8px;
+    --spacing-sm: 16px;
+    --spacing-md: 24px;
+    --spacing-lg: 40px;
+
+    --radius-sm: 8px;
+    --radius-md: 14px;
+    --radius-lg: 20px;
+
+    --shadow:
+        0 10px 30px rgba(0,0,0,0.08);
+
+}
+
+* {
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+
+body {
+    font-family: var(--font-family);
+    background: var(--background);
+    color: var(--text-primary);
+    font-size: var(--font-size-md);
+}
+
+
+button,
+input {
+    font-family: inherit;
+}
+
+
+button {
+    cursor: pointer;
+}
+
+
+a {
+    text-decoration: none;
+    color: var(--primary);
+}

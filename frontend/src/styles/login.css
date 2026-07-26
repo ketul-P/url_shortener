@@ -1,0 +1,99 @@
+.login-container {
+
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: var(--background);
+
+}
+
+
+.login-card {
+
+    width: 380px;
+    padding: var(--spacing-lg);
+    background: var(--surface);
+    border-radius: var(--radius-lg);
+    box-shadow: var(--shadow);
+    display: flex;
+    flex-direction: column;
+    gap: var(--spacing-sm);
+
+}
+
+
+.login-card h1 {
+
+    text-align: center;
+    font-size: var(--font-size-xl);
+    color: var(--text-primary);
+
+}
+
+
+.login-card p {
+
+    text-align: center;
+    color: var(--text-secondary);
+
+}
+
+
+.login-card input {
+
+    padding: var(--spacing-sm);
+    border-radius: var(--radius-sm);
+    border: 1px solid var(--border);
+    font-size: var(--font-size-md);
+    color: var(--text-primary);
+    background: var(--surface);
+
+}
+
+
+.login-card input:focus {
+
+    outline: none;
+    border-color: var(--primary);
+
+}
+
+
+.login-card button {
+
+    padding: var(--spacing-sm);
+    border: none;
+    border-radius: var(--radius-sm);
+    background: var(--primary);
+    color: white;
+    cursor: pointer;
+    font-size: var(--font-size-md);
+    transition: background 0.2s ease;
+
+}
+
+
+.login-card button:hover {
+
+    background: var(--primary-hover);
+
+}
+
+
+.login-card span {
+
+    text-align: center;
+    font-size: var(--font-size-sm);
+    color: var(--text-secondary);
+
+}
+
+
+.login-card a {
+
+    color: var(--primary);
+    margin-left: var(--spacing-xs);
+    cursor: pointer;
+
+}
